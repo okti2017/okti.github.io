@@ -1,0 +1,258 @@
+body {
+    font-family: "Source Sans Pro";
+}
+
+h2 {
+    margin-top: -20px;
+    font-size: 50px;
+    margin-bottom: -8px;
+    font-weight: normal;
+}
+
+h4 {
+    margin-bottom: -15px;
+    font-weight: normal;
+}
+
+#header {
+    width: 1000px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#logo {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#miniHeader {
+    vertical-align: middle;
+    display: inline-block;
+    text-align: left;
+}
+
+#navBar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#navBar a {
+    padding: 1px 1px 1px 1px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+#navBar a:hover {
+    color: grey;
+}
+
+#containerTop {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: auto;
+}
+
+#imageMap {
+    vertical-align: middle;
+    width: 60%;
+    display: inline-block;
+}
+
+#miniContainerTop {
+    vertical-align: middle;
+    width: 35%;
+    display: inline-block;
+}
+
+#miniContainerTop h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.button {
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px 32px;
+    background-color: #ce6363;
+    color: white;
+}
+
+.button:hover {
+    background-color: #A53434;
+    cursor: pointer;
+}
+
+#containerBottom {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: auto;
+}
+
+.miniContainerBottom {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.prize img {
+    display: inline-block;
+}
+
+#prizeText {
+    margin-left: 2%;
+    width: 80%;
+    display: inline-block;
+}
+
+#prizeText p {
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+#containerBottomRight {
+    text-align: center;
+    font-size: 12px;
+}
+
+#logoPPItext {
+    text-align: center;
+}
+
+#logoPPItext p {
+    margin-bottom: -10px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.registForm {
+    position: fixed;
+    text-align: center;
+    z-index: 100;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 70%;
+    width: 70%;
+    z-index: 100;
+    top: 20%;
+    left: 15%;
+    right: 15%;
+    font-size: 1.7vw;
+    visibility: hidden;
+}
+
+#closeButtonLine {
+    position: relative;
+    height: 30px;
+    top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#closeButtonLine #closeButton {
+    height: 25px;
+    float: right;
+    cursor: pointer;
+}
+
+#registFormBox {
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 75%;
+    color: white;
+    border-radius: 10px;
+}
+
+#registFormBox h2 {
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+}
+
+#registForm {
+    margin-left: 10%;
+    margin-right: auto;
+    width: 90%;
+    text-align: left;
+    margin-top: 2%;
+    position: relative;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+input {
+    width: 100%;
+    height: 20px;
+    display: block;
+    margin-bottom: 2%;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input[type=text] {
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+    outline: 0;
+}
+
+.half {
+    float: left;
+    width: 42%;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.full {
+    float: left;
+    width: 88%;
+}
+
+textarea {
+    width: 100%;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+}
+
+#daftar {
+    padding: 1% 2%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
