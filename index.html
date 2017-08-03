@@ -22,103 +22,264 @@
         </div>
     </div>
     <div id="navBar">
-        <a href="#">
+        <a id="beranda">
             <h3>Halaman Utama</h3>
         </a>
-        <a href="#">
+        <a id="tentang">
             <h3>Tentang Okti</h3>
         </a>
-        <a href="#">
+        <a id="panduan">
             <h3>Panduan Okti</h3>
         </a>
         <a href="#">
             <h3>Indonesia - Turki</h3>
         </a>
-        <a href="#">
+        <a id="hubungi">
             <h3>Hubungi Kami</h3>
         </a>
     </div>
-    <div id="containerTop">
-        <div id="imageMap">
-            <img width="600" src="assets/img/map_indo_turkey.png">
+    <div id="home">
+        <div id="containerTop">
+            <div id="imageMap">
+                <img width="600" src="assets/img/map_indo_turkey.png">
+            </div>
+            <div id="miniContainerTop">
+                <h3>“Membangun Jembatan Sinergi Dua Kekuatan Baru Dunia, <strong>Indonesia dan Turki</strong>”</h3>
+                <div class="button" id="register">Register Now</div>
+            </div>
         </div>
-        <div id="miniContainerTop">
-            <h3>“Membangun Jembatan Sinergi Dua Kekuatan Baru Dunia, <strong>Indonesia dan Turki</strong>”</h3>
-            <div class="button" id="register">Register Now</div>
+        <div id="containerBottom">
+            <div class="miniContainerBottom">
+                <div class="prize">
+                    <img src="assets/img/mini_logo_okti.png">
+                    <div id="prizeText">
+                        <p><strong>Pemenang OKTI</strong> akan mendapatkan hadiah berupa uang pembinaan dan sertifikat bertanda tangan Duta Besar LBBP Republik Indonesia untuk Turki dan Ketua PPI Turki.</p>
+                    </div>
+                </div>
+                <div class="prize">
+                    <img src="assets/img/mini_logo_okti.png">
+                    <div id="prizeText">
+                        <p><strong>5 Karya Tulis Terbaik</strong> berhak untuk mempresentasikan karyanya pada Simposium Ilmiah di Pekan Ilmiah Mahasiswa Indonesia di Turki Desember mendatang.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="miniContainerBottom" id="containerBottomRight">
+                <div id="logoPPI">
+                    <img src="assets/img/logo_ppi.png">
+                </div>
+                <div id="logoPPItext">
+                    <h3>PPI TURKI</h3>
+                    <p><strong>Departemen Kajian Akademik dan Keprofesian</strong>
+                    </p>
+                    <p>Perhimpunan Pelajar Indonesia di Turki © 2017
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="registForm">
+            <div id="closeButtonLine">
+                <img id="closeButton" src="assets/img/close.svg">
+            </div>
+            <div id="registFormBox">
+                <h2><strong>Form Registrasi</strong></h2>
+                <div id="registForm">
+                    <form method="POST" action="http://formspree.io/dbalumnippiturki@gmail.com">
+                        <div class="half">
+                            <label for="name">Nama Pertama</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="half">
+                            <label for="name">Nama Belakang</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="full">
+                            <label for="name">Email</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="full">
+                            <label for="name">No. Telp/HP</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="full">
+                            <label for="name">CV Singkat</label>
+                            <textarea cols="30" rows="5"></textarea>
+                        </div>
+                        <div class="full">
+                            <label for="name">Judul Paper</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="full">
+                            <label for="name">Abstract</label>
+                            <textarea cols="30" rows="5"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="button" id="daftar">Daftar</div>
+            </div>
         </div>
     </div>
-    <div id="containerBottom">
-        <div class="miniContainerBottom">
-            <div class="prize">
-                <img src="assets/img/mini_logo_okti.png">
-                <div id="prizeText">
-                    <p><strong>Pemenang OKTI</strong> akan mendapatkan hadiah berupa uang pembinaan dan sertifikat bertanda tangan Duta Besar LBBP Republik Indonesia untuk Turki dan Ketua PPI Turki.</p>
+
+    <div id="about">
+        <div id="aboutContainer">
+            <div class="aboutContainerMini">
+                <img src="assets/img/map_indo_turkey.png">
+                <div id="aboutButtons">
+                    <div class="button aboutButton">Persyaratan OKTI</div>
+                    <div class="button aboutButton">Sistemika dan Teknik Penulisan</div>
+                    <div class="button aboutButton">Penghargaan</div>
+                    <div class="button aboutButton">Tanggal Penting OKTI</div>
                 </div>
             </div>
-            <div class="prize">
-                <img src="assets/img/mini_logo_okti.png">
-                <div id="prizeText">
-                    <p><strong>5 Karya Tulis Terbaik</strong> berhak untuk mempresentasikan karyanya pada Simposium Ilmiah di Pekan Ilmiah Mahasiswa Indonesia di Turki Desember mendatang.</p>
+            <div class="aboutContainerMini">
+                <p>​Olimpiade Karya Tulis Ilmiah (OKTI) merupakan program ilmiah yang dirancang oleh Departemen Kajian Akademik dan Keprofesian untuk mengembangkan daya kritis dan daya ilmiah pelajar Indonesia di Turki. Program ini merupakan perlombaan karya
+                    tulis inovatif sesuai topik yang ditentukan. Masing-masing karya tulis terbaik setiap topik berhak untuk mempresentasikan karyanya di Simposium Internasional Pekan Ilmiah Mahasiswa Indonesia di Turki yang akan diselenggarakan pada
+                    bulan Desember 2017.</p>
+                ​
+                <p>Selain pelajar Indonesia di Turki, OKTI 2017 ini juga diperuntukkan kepada para pelajar di Indonesia. Sedangkan anggota PPI negara lain tidak diperkenankan untuk mengikuti kompetisi ini.</p>
+                ​
+                <p>Tema yang diusung dalam Olimpiade Karya Tulis Ilmiah adalah “Membangun Jembatan Sinergi Dua Kekuatan Baru Dunia, Indonesia dan Turki” dengan topik/kategori sebagai berikut:</p>
+
+                <ol>
+                    <li>Ilmu Sosial, Pendidikan dan Humaniora</li>
+                    <li>Teknologi Informasi dan Elektronik</li>
+                    <li>Sains, Energi dan Ketahanan Pangan</li>
+                    <li>Kedokteran dan Kesehatan</li>
+                    <li>Ilahiyat (Islamic Studies)</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div id="guidelines">
+        <div id="titleGuidelines">
+            <h3><strong>PANDUAN OLIMPIADE KARYA TULIS ILMIAH 2017</strong></h3>
+            <h3>Perhimpunan Pelajar Indonesia di Turki</h3>
+        </div>
+        <div id="guidelinesContainer">
+            <div class="guidelinesContainerMini">
+                <h3>PERSYARATAN PESERTA</h3>
+                ​
+                <ul>
+                    <li>Pelajar Indonesia di Turki dan/atau di Indonesia. Pelajar Indonesia yang menjadi anggota PPI negara lain tidak diperkenankan mengikuti kompetisi</li>
+                    <li>Membuat dan menyerahkan karya tulis ilmiah dengan topik yang telah ditentukan</li>
+                    <li>Satu orang calon peserta hanya dapat mengirimkan satu naskah</li>
+                    <li>Karya tulis adalah karya sendiri dan/atau tidak mengandung unsur plagiarisme</li>
+                    <li>Tulisan belum pernah dipublikasikan dan/atau tidak sedang diikutkan dalam perlombaan sejenis</li>
+                    <li>Melengkapi persyaratan administrasi</li>
+                    <li>Tulisan tidak tidak mengandung unsur SARA</li>
+                    <li>Abstrak dikirim melalui e-mail Olimpiade Karya Tulis Ilmiah ke okti.ppiturki@gmail.com dan cc e-mail tersebut ke fatchul.wachid@gmail.com dalam format pdf</li>
+                    <li>Sedangkan Full Paper dikirim setelah pengumuman Lolos Abstrak melalui e-mail Olimpiade Karya Tulis Ilmiah ke okti.ppiturki@gmail.com dan cc e-mail tersebut ke fatchul.wachid@gmail.com dalam format pdf, beserta persyaratan administrasi
+                        yang telah ditentukan</li>
+                    <li>Info panduan lengkap dapat diakses di okti.ppiturki.org</li>
+                </ul>
+
+                ​
+                <h3>PERSYARATAN ADMINISTRASI</h3>
+                ​
+                <ul>
+                    <li>Scan Öğrenci Kartı atau Kartu Tanda Mahasiswa</li>
+                    <li>Jika tidak memiliki Kartu Tanda Mahasiswa dapat diganti dengan scan Öğrenci Belgesi atau Surat Keterangan Mahasiswa</li>
+                    <li>Curriculum Vitae pemilik/penulis karya</li>
+                    <li>Surat Pernyataan karya asli sendiri​​</li>
+                </ul>
+                ​
+                <h3>TEMA OKTI 2017</h3>
+                ​
+                <p>
+                    Tema yang diusung dalam Olimpiade Karya Tulis Ilmiah adalah “Membangun Jembatan Sinergi Dua Kekuatan Baru Dunia, Indonesia dan Turki” dengan topik/kategori sebagai berikut:
+                </p>
+
+
+                <ol>
+                    <li>Ilmu Sosial, Pendidikan dan Humaniora​</li>
+                    <li>Teknologi Informasi dan Elektronik</li>
+                    <li>Sains, Energi dan Ketahanan Pangan</li>
+                    <li>Kedokteran dan Kesehatan</li>
+                    <li>Ilahiyat (Islamic Studies)</li>
+                </ol>
+                <h3>PENGHARGAAN</h3>
+                ​
+                <p>Peringkat 1, 2 dan 3 akan menerima hadiah berupa uang pembinaan (total hadiah 500 TL) dan piagam penghargaan yang akan ditanda tangani oleh Duta Besar LBBP Republik Indonesia untuk Turki dan Ketua PPI Turki.​​</p>
+
+            </div>
+            <div class="guidelinesContainerMini">
+                <h3>SISTEMATIKA PENULISAN</h3>
+                <p style="margin-top: 30px;">Artikel disusun sesuai sistematika dibawah ini:</p>
+                <ul>
+                    <li>Abstrak</li>
+                    <li>Pendahuluan</li>
+                    <li>Pembahasan Masalah dan Solusi</li>
+                    <li>Kesimpulan</li>
+                    <li>Daftar Pustaka</li>
+                </ul>
+                ​
+                <h3>TEKNIK PENULISAN</h3>
+                ​
+                <ul>
+                    <li>Penulisan naskah sesuai dengan sistematika penulisan yang telah ditentukan.</li>
+                    <li>Jumlah halaman naskah maksimal 15 halaman tidak termasuk daftar pustaka, dengan kertas berukuran A4.</li>
+                    <li>Isi Artikel: Abstrak, Pendahuluan, Pembahasan Masalah dan Solusi, Kesimpulan dan Daftar Pustaka.</li>
+                    <li>Naskah diketik dengan spasi 1,5 cm Times New Roman ukuran huruf (font) 12, batas tepi kiri/margin kiri 4 cm, kanan 3 cm, atas 3 cm dan bawah 3 cm. Khusus untuk ukuran huruf tabel disesuaikan dengan kebutuhan.​</li>
+                </ul>
+                ​
+                <h3>TANGGAL PENTING</h3>
+                ​
+                <ul>
+                    <li>Pendaftaran Secara Online</li>
+                    <li>Pengumpulan Abstrak​</li>
+                    <li>Penilaian dan Seleksi</li>
+                    <li>Pengumuman Lolos Abstrak</li>
+                    <li>Pengumpulan Full Paper</li>
+                    <li>Penilaian dan Seleksi</li>
+                    <li>Pengumuman 5 (Lima) Karya Tulis Ilmiah yang berhak untuk dipresentasikan di Simposium Internasional</li>
+                </ul>
+                ​
+                <p>Adapun presentasi 5 karya tulis ilmiah terbaik akan dilaksanakan pada Simposium Internasional di Pekan Ilmiah Mahasiswa Indonesia di Turki yang akan dilaksanakan bulan 31 Desember 2017.</p>
+                ​
+                <h3>Catatan Penting</h3>
+                ​
+                <p>Setelah melakukan pendaftaran secara online melalui Form Pendaftaran yang tercantum di Halaman Utama okti.ppiturki.org jangan lupa untuk melakukan konfirmasi pendaftaran ke SMS atau Call Center OKTI 2017 yaitu:</p>
+                ​
+                <p>Telp: +90-538 251 1991 (Fatchul Wachid) - SMS/Call/Whatsapp</p>
+                <p>Telp: +90-505 131 8498 (Abiyyu Ali Putra) - SMS/Call</p>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div id="contactContainer">
+            <h3><i>SMS ATAU CALL CENTER PANITIA OLIMPIADE KARYA TULIS ILMIAH 2017</i>
+            </h3>
+            <div class="contactContainerMini">
+                <div class="contactID">
+                    <h3>FATCHUL WACHID</h3>
+                    <p>Ketua Departemen Kajian Akademik dan Keprofesian<br><br> fatchul.wachid@gmail.com<br> Tel: +90-5382511991
+                    </p>
+                </div>
+                <div class="contactID" id="lined">
+                    <h3>M. ABIYYU ALI PUTRA</h3>
+                    <p>Divisi Administrasi dan Pendaftaran OKTI2017<br><br> abiyyu95@gmail.com<br> Tel: +90-5051318498
+                    </p>
+                </div>
+                <div class="contactID">
+                    <h3>HILMY HIBATUR RIZQ
+                    </h3>
+                    <p>Sekretaris Departemen Kajian Akademik dan Keprofesian<br><br> hilmyhr@gmail.com<br> Tel: +90-5538847752
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="miniContainerBottom" id="containerBottomRight">
-            <div id="logoPPI">
-                <img src="assets/img/logo_ppi.png">
-            </div>
-            <div id="logoPPItext">
-                <h3>PPI TURKI</h3>
-                <p><strong>Departemen Kajian Akademik dan Keprofesian</strong>
-                </p>
-                <p>Perhimpunan Pelajar Indonesia di Turki © 2017
-                </p>
-            </div>
-        </div>
+
+    </div>
+
+    <div id="socMed">
+        <a href="http://www.twitter.com/ppiturki"><img src="assets/img/icon/twitter.png"></a>
+        <a href="http://www.facebook.com/ppiturki"><img src="assets/img/icon/facebook.png"></a>
+        <a href="http://www.youtube.com/user/ppiturki"><img src="assets/img/icon/youtube.png"></a>
+        <a href="http://www.instagram.com/ppiturki"><img src="assets/img/icon/instagram.png"></a>
+        <a href="https://www.linkedin.com/company/ppi-turki"><img src="assets/img/icon/linkedin.png"></a>
     </div>
     <footer>© 2017 by PPI TURKI. Olimpiade Karya Tulis Ilmiah (OKTI) 2017 Perhimpunan Pelajar Indonesia di Turki
     </footer>
-
-    <div class="registForm">
-        <div id="closeButtonLine">
-            <img id="closeButton" src="assets/img/close.svg">
-        </div>
-        <div id="registFormBox">
-            <h2><strong>Form Registrasi</strong></h2>
-            <div id="registForm">
-                <form method="POST" action="http://formspree.io/dbalumnippiturki@gmail.com">
-                    <div class="half">
-                        <label for="name">Nama Pertama</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="half">
-                        <label for="name">Nama Belakang</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="full">
-                        <label for="name">Email</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="full">
-                        <label for="name">No. Telp/HP</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="full">
-                        <label for="name">CV Singkat</label>
-                        <textarea cols="30" rows="5"></textarea>
-                    </div>
-                    <div class="full">
-                        <label for="name">Judul Paper</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="full">
-                        <label for="name">Abstract</label>
-                        <textarea cols="30" rows="5"></textarea>
-                    </div>
-                </form>
-            </div>
-            <div class="button" id="daftar">Daftar</div>
-        </div>
-    </div>
 
     <script type="text/javascript" src="assets/js/main.js"></script>
 
