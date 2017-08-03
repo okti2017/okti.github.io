@@ -66,7 +66,7 @@
             </div>
             <div class="miniContainerBottom" id="containerBottomRight">
                 <div id="logoPPI">
-                    <img src="assets/img/logo_ppi.png">
+                    <img width="70" src="assets/img/logo_ppi.png">
                 </div>
                 <div id="logoPPItext">
                     <h3>PPI TURKI</h3>
@@ -85,38 +85,41 @@
             <div id="registFormBox">
                 <h2><strong>Form Registrasi</strong></h2>
                 <div id="registForm">
-                    <form method="POST" action="http://formspree.io/dbalumnippiturki@gmail.com">
+                    <form method="POST" action="http://formspree.io/okti.ppiturki@gmail.com">
                         <div class="half">
-                            <label for="name">Nama Pertama</label>
-                            <input type="text" name="name" id="name" />
+                            <label for="name">Nama Depan</label>
+                            <input type="text" name="Nama Depan" />
                         </div>
                         <div class="half">
                             <label for="name">Nama Belakang</label>
-                            <input type="text" name="name" id="name" />
+                            <input type="text" name="Nama Belakang" />
                         </div>
                         <div class="full">
-                            <label for="name">Email</label>
-                            <input type="text" name="name" id="name" />
+                            <label for="email">Email</label>
+                            <input type="text" name="Email" id="name" />
                         </div>
                         <div class="full">
                             <label for="name">No. Telp/HP</label>
-                            <input type="text" name="name" id="name" />
+                            <input type="text" name="No Telp./Hp" />
                         </div>
                         <div class="full">
                             <label for="name">CV Singkat</label>
-                            <textarea cols="30" rows="5"></textarea>
+                            <textarea name="CV Singkat" cols="30" rows="5"></textarea>
                         </div>
                         <div class="full">
                             <label for="name">Judul Paper</label>
-                            <input type="text" name="name" id="name" />
+                            <input type="text" name="Judul Paper" />
                         </div>
                         <div class="full">
                             <label for="name">Abstract</label>
-                            <textarea cols="30" rows="5"></textarea>
+                            <textarea name="Abstract" cols="30" rows="5"></textarea>
+                        </div>
+                        <div id="resAndSub">
+                            <button class="button" id="daftar" type="submit">Daftar</button>
+                            <button class="button" id="daftar" type="reset">Reset</button>
                         </div>
                     </form>
                 </div>
-                <div class="button" id="daftar">Daftar</div>
             </div>
         </div>
     </div>
@@ -268,8 +271,30 @@
                     </p>
                 </div>
             </div>
-        </div>
+            <div class="contactContainerMini">
+                <div id="panitiaLogo">
+                    <img width="70" src='assets/img/logo_ppi.png'>
+                    <h3>PANITIA OKTI2017
+                    </h3>
+                    <p>okti.ppiturki@gmail.com</p>
+                </div>
+                <div id="sendMessage">
+                    <p>TINGGALKAN PESAN</p>
+                    <form method="POST" action="http://formspree.io/okti.ppiturki@gmail.com">
+                        <div id="sendMessageInput">
+                            <input type="text" name="Nama" placeholder="Nama" />
+                            <input type="text" name="Email" placeholder="Email" />
+                            <input type="text" name="Subjek" placeholder="Judul Pesan" />
+                        </div>
+                        <div id="sendMessageTextArea">
+                            <textarea placeholder="Isi pesan" name="Isi pesan" cols="30" rows="5"></textarea>
+                            <button class="button" id="daftar" type="submit">Kirim</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
+        </div>
     </div>
 
     <div id="socMed">

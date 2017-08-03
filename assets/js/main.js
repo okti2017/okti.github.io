@@ -1,8 +1,8 @@
 $('#home').children().hide();
-$('#home').children().show(1000);
+// $('#home').children().show(1000);
 $('#guidelines').children().hide();
 $('#about').children().hide();
-$('#contact').children().hide();
+$('#contact').children().show();
 console.log("hiiii");
 
 $('#register').click(function(event) {
