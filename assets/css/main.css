@@ -11,7 +11,7 @@ button {
 
 h2 {
     margin-top: -20px;
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: -8px;
     font-weight: normal;
 }
@@ -429,4 +429,27 @@ textarea:focus {
     font-size: 12px;
     margin: 0px;
     border-radius: 10px;
+}
+
+#indoTurkeyContainer {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#indoTurkeyContainer .sign {
+    cursor: pointer;
+}
+
+#indoTurkeyContainer .sign:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#video {
+    margin-top: 30px;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
