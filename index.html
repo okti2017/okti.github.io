@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <title>OKTI 2017</title>
     <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <script>
+        UPLOADCARE_PUBLIC_KEY = "demopublickey";
+    </script>
+    <script src="https://ucarecdn.com/libs/widget/3.1.1/uploadcare.full.min.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Scope+One|Source+Sans+Pro" rel="stylesheet">
     <script type="text/javascript" src="assets/js/jquery-3.2.1.js"></script>
@@ -46,7 +50,7 @@
             </div>
             <div id="miniContainerTop">
                 <h3>“Membangun Jembatan Sinergi Dua Kekuatan Baru Dunia, <strong>Indonesia dan Turki</strong>”</h3>
-                <div class="button" id="register">Register Now</div>
+                <div class="button" id="register">Daftar Sekarang</div>
             </div>
         </div>
         <div id="containerBottom">
@@ -112,7 +116,9 @@
                         </div>
                         <div class="full">
                             <label for="name">Abstract</label>
-                            <textarea name="7. Abstract" cols="30" rows="5"></textarea>
+                            <p class="uploader-green-button">
+                                <input type="hidden" role="uploadcare-uploader" name="7. Abstract">
+                            </p>
                         </div>
                         <div id="resAndSub">
                             <button class="button" id="daftar" type="submit">Daftar</button>
@@ -138,11 +144,8 @@
             <div class="aboutContainerMini">
                 <p>​Olimpiade Karya Tulis Ilmiah (OKTI) merupakan program ilmiah yang dirancang oleh Departemen Kajian Akademik dan Keprofesian untuk mengembangkan daya kritis dan daya ilmiah pelajar Indonesia di Turki. Program ini merupakan perlombaan karya
                     tulis inovatif sesuai topik yang ditentukan. Masing-masing karya tulis terbaik setiap topik berhak untuk mempresentasikan karyanya di Simposium Internasional Pekan Ilmiah Mahasiswa Indonesia di Turki yang akan diselenggarakan pada
-                    bulan Desember 2017.</p>
-                ​
-                <p>Selain pelajar Indonesia di Turki, OKTI 2017 ini juga diperuntukkan kepada para pelajar di Indonesia. Sedangkan anggota PPI negara lain tidak diperkenankan untuk mengikuti kompetisi ini.</p>
-                ​
-                <p>Tema yang diusung dalam Olimpiade Karya Tulis Ilmiah adalah “Membangun Jembatan Sinergi Dua Kekuatan Baru Dunia, Indonesia dan Turki” dengan topik/kategori sebagai berikut:</p>
+                    bulan Desember 2017.<br><br>Selain pelajar Indonesia di Turki, OKTI 2017 ini juga diperuntukkan kepada para pelajar di Indonesia. Sedangkan anggota PPI negara lain tidak diperkenankan untuk mengikuti kompetisi ini.<br><br>Tema yang
+                    diusung dalam Olimpiade Karya Tulis Ilmiah adalah “Membangun Jembatan Sinergi Dua Kekuatan Baru Dunia, Indonesia dan Turki” dengan topik/kategori sebagai berikut:</p>
 
                 <ol>
                     <li>Ilmu Sosial, Pendidikan dan Humaniora</li>
@@ -226,17 +229,36 @@
                     <li>Naskah diketik dengan spasi 1,5 cm Times New Roman ukuran huruf (font) 12, batas tepi kiri/margin kiri 4 cm, kanan 3 cm, atas 3 cm dan bawah 3 cm. Khusus untuk ukuran huruf tabel disesuaikan dengan kebutuhan.​</li>
                 </ul>
                 ​
-                <h3>TANGGAL PENTING</h3>
-                ​
-                <ul>
-                    <li>Pendaftaran Secara Online<br> 4 Agustus - 4 September 2017</li>
-                    <li>Pengumpulan Abstrak​<br>4 Agustus - 4 September 2017</li>
-                    <li>Penilaian dan Seleksi<br>:5 - 11 September 2017</li>
-                    <li>Pengumuman Lolos Abstrak<br>12 September 2017</li>
-                    <li>Pengumpulan Full Paper<br>13 September - 20 Oktober 2017</li>
-                    <li>Penilaian dan Seleksi<br>21 Oktober - 30 Oktober</li>
-                    <li>Pengumuman Pemenang<br>31 Oktober 2017​</li>
-                </ul>
+                <h3 style="margin-bottom:8px;">TANGGAL PENTING</h3>
+
+                <div>
+                    <span class="col1">Pendaftaran Secara Online</span>
+                    <span>: 4 Agustus - 4 September 2017</span>
+                </div>
+                <div>
+                    <span class="col1">Pengumpulan Abstrak​</span>
+                    <span>: 4 Agustus - 4 September 2017</span>
+                </div>
+                <div>
+                    <span class="col1">Penilaian dan Seleksi</span>
+                    <span>: 5 - 11 September 2017</span>
+                </div>
+                <div>
+                    <span class="col1">Pengumuman Lolos Abstrak</span>
+                    <span>: 12 September 2017</span>
+                </div>
+                <div>
+                    <span class="col1">Pengumpulan Full Paper</span>
+                    <span>: 13 September - 20 Oktober 2017</span>
+                </div>
+                <div>
+                    <span class="col1">Penilaian dan Seleksi</span>
+                    <span>: 21 Oktober - 30 Oktober</span>
+                </div>
+                <div>
+                    <span class="col1">Pengumuman Pemenang</span>
+                    <span>: 31 Oktober 2017</span>
+                </div>
                 ​
                 <p>Adapun presentasi 5 karya tulis ilmiah terbaik akan dilaksanakan pada Simposium Internasional di <strong>Pekan Ilmiah Mahasiswa Indonesia di Turki</strong> yang akan dilaksanakan bulan 31 Desember 2017.</p>
                 ​
@@ -244,8 +266,7 @@
                 ​
                 <p>Setelah melakukan pendaftaran secara online melalui Form Pendaftaran yang tercantum di Halaman Utama okti.ppiturki.org jangan lupa untuk melakukan konfirmasi pendaftaran ke SMS atau Call Center OKTI 2017 yaitu:</p>
                 ​
-                <p>Telp: +90-538 251 1991 (Fatchul Wachid) - SMS/Call/Whatsapp</p>
-                <p>Telp: +90-505 131 8498 (Abiyyu Ali Putra) - SMS/Call</p>
+                <p>Telp: +90-538 251 1991 (<strong>Fatchul Wachid</strong>) - SMS/Call/Whatsapp<br> Telp: +90-505 131 8498 (<strong>Abiyyu Ali Putra</strong>) - SMS/Call</p>
             </div>
         </div>
     </div>
@@ -261,7 +282,7 @@
                 </div>
                 <div class="contactID" id="lined">
                     <h3>M. ABIYYU ALI PUTRA</h3>
-                    <p>Divisi Administrasi dan Pendaftaran OKTI2017<br><br> abiyyu95@gmail.com<br> Tel: +90-5051318498
+                    <p>Divisi Administrasi dan Pendaftaran OKTI2017<br><br> abiyyu97@gmail.com<br> Tel: +90-5051318498
                     </p>
                 </div>
                 <div class="contactID">

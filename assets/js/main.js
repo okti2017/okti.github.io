@@ -10,10 +10,12 @@ $('#indoTurkey').children().hide();
 $('#register').click(function(event) {
     $('.registForm').css('visibility', 'visible');
     console.log("Test");
+    $('.uploader-green-button').css('display', 'block');
 });
 
 $('#closeButton').click(function(event) {
     $('.registForm').css('visibility', 'hidden');
+    $('.uploader-green-button').css('display', 'none');
 });
 
 $('#panduan').click(function(event) {
