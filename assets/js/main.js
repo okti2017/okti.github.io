@@ -1,5 +1,5 @@
 $('#home').children().hide();
-$('#home').children().show(1000);
+$('#home').children().fadeIn(1000);
 $('#guidelines').children().hide();
 $('#about').children().hide();
 $('#contact').children().hide();
@@ -15,37 +15,39 @@ $('#closeButton').click(function(event) {
 });
 
 $('#panduan').click(function(event) {
-    $('#home').children().hide(1000);
-    $('#about').children().hide(1000);
-    $('#guidelines').children().show(1000);
+    $('#home').children().hide();
+    $('#about').children().hide();
+    $('#contact').children().hide();
+    $("#guidelines").children().fadeIn(1500);
+    // $('#guidelines').children().fadeIn(1500);
 });
 
 $('#hubungi').click(function(event) {
-    $('#home').children().hide(1000);
-    $('#about').children().hide(1000);
-    $('#guidelines').children().hide(1000);
-    $('#contact').children().show(1000);
+    $('#home').children().hide();
+    $('#about').children().hide();
+    $('#guidelines').children().hide();
+    $('#contact').children().fadeIn(1500);
 });
 
 $('.aboutButton').click(function(event) {
-    $('#home').children().hide(1000);
-    $('#about').children().hide(1000);
-    $('#contact').children().hide(1000);
-    $('#guidelines').children().show(1000);
+    $('#home').children().hide();
+    $('#about').children().hide();
+    $('#contact').children().hide();
+    $('#guidelines').children().fadeIn(1500);
     console.log("Test");
 });
 
 $('#tentang').click(function(event) {
-    $('#home').children().hide(1000);
-    $('#guidelines').children().hide(1000);
-    $('#contact').children().hide(1000);
-    $('#about').children().show(1000);
+    $('#home').children().hide();
+    $('#guidelines').children().hide();
+    $('#contact').children().hide();
+    $('#about').children().fadeIn(1500);
     console.log("Test");
 });
 
 $('#beranda').click(function(event) {
-    $('#guidelines').children().hide(1000);
-    $('#about').children().hide(1000);
-    $('#contact').children().hide(1000);
-    $('#home').children().show(1000);
+    $('#guidelines').children().hide();
+    $('#about').children().hide();
+    $('#contact').children().hide();
+    $('#home').children().fadeIn(1500);
 });

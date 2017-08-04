@@ -276,17 +276,17 @@ textarea:focus {
 }
 
 #guidelinesContainer {
-    width: 800px;
+    width: 900px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .guidelinesContainerMini {
     vertical-align: top;
-    width: 48%;
+    width: 45%;
     font-size: 14px;
     display: inline-block;
-    margin-right: 1%;
+    margin-right: 3%;
 }
 
 .guidelinesContainerMini h3 {
