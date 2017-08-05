@@ -472,3 +472,10 @@ textarea:focus {
     width: 200px;
     float: left;
 }
+
+#faqContainer {
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

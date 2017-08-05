@@ -6,6 +6,7 @@ $('#contact').children().hide();
 $('#indoVideo').hide();
 $('#turkeyVideo').hide();
 $('#indoTurkey').children().hide();
+$('#faq').children().hide();
 
 $('#register').click(function(event) {
     $('.registForm').css('visibility', 'visible');
@@ -20,6 +21,7 @@ $('#closeButton').click(function(event) {
 
 $('#panduan').click(function(event) {
     $('#home').children().hide();
+    $('#faq').children().hide();
     $('#about').children().hide();
     $('#contact').children().hide();
     $('#indoTurkey').children().hide();
@@ -29,6 +31,7 @@ $('#panduan').click(function(event) {
 
 $('#hubungi').click(function(event) {
     $('#home').children().hide();
+    $('#faq').children().hide();
     $('#about').children().hide();
     $('#guidelines').children().hide();
     $('#indoTurkey').children().hide();
@@ -40,6 +43,7 @@ $('#indoTurkeyNav').click(function(event) {
     $('#about').children().hide();
     $('#guidelines').children().hide();
     $('#contact').children().hide();
+    $('#faq').children().hide();
     $('#indoTurkey').children().fadeIn(1500);
 });
 
@@ -48,6 +52,7 @@ $('.aboutButton').click(function(event) {
     $('#about').children().hide();
     $('#contact').children().hide();
     $('#indoTurkey').children().hide();
+    $('#faq').children().hide();
     $('#guidelines').children().fadeIn(1500);
 });
 
@@ -56,6 +61,7 @@ $('#tentang').click(function(event) {
     $('#guidelines').children().hide();
     $('#contact').children().hide();
     $('#indoTurkey').children().hide();
+    $('#faq').children().hide();
     $('#about').children().fadeIn(1500);
 });
 
@@ -64,7 +70,17 @@ $('#beranda').click(function(event) {
     $('#about').children().hide();
     $('#contact').children().hide();
     $('#indoTurkey').children().hide();
+    $('#faq').children().hide();
     $('#home').children().fadeIn(1500);
+});
+
+$('#faqLink').click(function(event) {
+    $('#guidelines').children().hide();
+    $('#about').children().hide();
+    $('#contact').children().hide();
+    $('#indoTurkey').children().hide();
+    $('#home').children().hide();
+    $('#faq').children().fadeIn(1500);
 });
 
 $('#indoSign').click(function(event) {
